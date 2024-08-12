@@ -21,7 +21,7 @@
 ;; See 'C-h v doom-font' for documentation and more examples of what they
 ;; accept. For example:
 ;;
-;;(setq doom-font (font-spec :family "Fira Code" :size 12 :weight 'semi-light)
+;;(setq doom-font (font-spec :family "" :size 12 :weight 'semi-light)
 ;;      doom-variable-pitch-font (font-spec :family "Fira Sans" :size 13))
 ;;
 ;; If you or Emacs can't find your font, use 'M-x describe-font' to look them
@@ -42,8 +42,8 @@
 (setq org-directory "~/org/")
 
 ;;Fonts:
-(setq doom-font (font-spec :family "JetBrainsMono NF" :size 15 :style 'Regular )
-      doom-variable-pitch-font(font-spec :family "Overpass" :size 16 :style 'Regular  )
+(setq doom-font (font-spec :family "JetBrainsMono" :size 15 :style 'Regular )
+      doom-variable-pitch-font(font-spec :family "JetBrainsMono" :size 16 :style 'Regular  )
       )
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
